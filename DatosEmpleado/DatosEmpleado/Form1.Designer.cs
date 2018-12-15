@@ -88,6 +88,7 @@
             this.datosPersonaleGroupBox.Controls.Add(this.segundoNombreLabel);
             this.datosPersonaleGroupBox.Controls.Add(this.primerNombreTextBox);
             this.datosPersonaleGroupBox.Controls.Add(this.primerNombreLabel);
+            this.datosPersonaleGroupBox.ForeColor = System.Drawing.SystemColors.Control;
             this.datosPersonaleGroupBox.Location = new System.Drawing.Point(28, 80);
             this.datosPersonaleGroupBox.Margin = new System.Windows.Forms.Padding(4);
             this.datosPersonaleGroupBox.Name = "datosPersonaleGroupBox";
@@ -297,6 +298,7 @@
             // 
             // guardarButton
             // 
+            this.guardarButton.ForeColor = System.Drawing.Color.Black;
             this.guardarButton.Location = new System.Drawing.Point(200, 504);
             this.guardarButton.Name = "guardarButton";
             this.guardarButton.Size = new System.Drawing.Size(112, 38);
@@ -307,6 +309,7 @@
             // 
             // cerrarButton
             // 
+            this.cerrarButton.ForeColor = System.Drawing.Color.Black;
             this.cerrarButton.Location = new System.Drawing.Point(364, 504);
             this.cerrarButton.Name = "cerrarButton";
             this.cerrarButton.Size = new System.Drawing.Size(112, 38);
@@ -317,6 +320,7 @@
             // 
             // verDetalleButton
             // 
+            this.verDetalleButton.ForeColor = System.Drawing.Color.Black;
             this.verDetalleButton.Location = new System.Drawing.Point(575, 504);
             this.verDetalleButton.Name = "verDetalleButton";
             this.verDetalleButton.Size = new System.Drawing.Size(221, 38);
@@ -329,6 +333,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(843, 554);
             this.Controls.Add(this.verDetalleButton);
             this.Controls.Add(this.cerrarButton);
@@ -344,6 +349,7 @@
             this.Controls.Add(this.datosPersonaleGroupBox);
             this.Controls.Add(this.tituloLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.Control;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDatosEmpleados";
             this.Text = "Empleado";
